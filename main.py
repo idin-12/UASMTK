@@ -53,11 +53,6 @@ st.subheader("Hasil Perhitungan EOQ")
 st.write(f"📦 **Jumlah Pemesanan Optimal (EOQ)**: {EOQ:.2f} unit")
 st.write(f"🔁 **Jumlah Pemesanan per Tahun**: {jumlah_order_per_tahun:.2f} kali")
 
-# Biaya per order dan per unit per tahun (input dasar)
-st.subheader("Biaya Dasar")
-st.write(f"📝 **Biaya Pemesanan per Order**: Rp {S:,.2f}")
-st.write(f"🏬 **Biaya Penyimpanan per Unit per Tahun**: Rp {H:,.2f}")
-
 # Rincian biaya total
 st.subheader("Rincian Biaya Persediaan per Tahun")
 st.write(f"📝 **Total Biaya Pemesanan**: Rp {biaya_pemesanan_total:,.2f}")
