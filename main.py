@@ -55,8 +55,8 @@ st.write(f"🔁 **Jumlah Pemesanan per Tahun**: {jumlah_order_per_tahun:.2f} kal
 
 # Rincian biaya total
 st.subheader("Rincian Biaya Persediaan per Tahun")
-st.write(f"📝 **Total Biaya Pemesanan**: Rp {biaya_pemesanan_total:,.2f}")
-st.write(f"🏬 **Total Biaya Penyimpanan**: Rp {biaya_penyimpanan_total:,.2f}")
+st.write(f"📝 **Total Biaya Pemesanan Dalam 1 Tahun**: Rp {biaya_pemesanan_total:,.2f}")
+st.write(f"🏬 **Total Biaya Penyimpanan Dalam 1 Tahun**: Rp {biaya_penyimpanan_total:,.2f}")
 st.write(f"💰 **Total Biaya Persediaan (Pemesanan + Penyimpanan)**: Rp {biaya_total_persediaan:,.2f}")
 
 # Grafik EOQ dengan titik koordinat dan keterangan EOQ
